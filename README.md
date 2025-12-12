@@ -1,4 +1,4 @@
-# SEASON-UPC
+# Infrastructure Management xApp
 
 This repository contains code and configuration for the software developed by UPC in the context of the SEASON project. A RAN xApp providing REST endpoints and xApp lifecycle code for the infrastructure reconfiguration is provided.
 
