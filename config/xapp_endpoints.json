@@ -1,0 +1,1 @@
+{"API_URL":"http://192.168.60.40:31315","KAFKA_URL":"kafka://192.168.60.40:31090","NATS_URL":"nats://192.168.60.40:31100","NATS_URL_5G":"nats://192.168.60.40:31100","PROMETHEUS_URL":"http://192.168.60.40:30304","REDIS_URL":"redis://season-upc-handover-test-latest-xapp-redis.default:6379"}

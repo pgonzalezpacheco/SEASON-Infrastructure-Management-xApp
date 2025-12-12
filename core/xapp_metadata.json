@@ -1,0 +1,50 @@
+{
+  "name": "season-upc-test-latest",
+  "configName": "",
+  "description": "xApp Description...",
+  "last_modified": "06/07/2020 23:32:00",
+  "config_options": [
+    {
+      "name": "LOG_LEVEL",
+      "description": "Log stuff",
+      "default": 10,
+      "jsonSchemaOptions": {
+        "type": "number"
+      },
+      "uiSchemaOptions": {}
+    },
+    {
+      "name": "example_slider",
+      "description": "Test string configuration option",
+      "default": 10,
+      "jsonSchemaOptions": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 50
+      },
+      "uiSchemaOptions": {
+        "ui:widget": "range"
+      }
+    },
+    {
+      "name": "someUrl",
+      "description": "Test URL configuration option",
+      "default": "url://some.url",
+      "jsonSchemaOptions": {
+        "type": "string"
+      },
+      "uiSchemaOptions": {}
+    },
+    {
+      "name": "boolean",
+      "description": "Test boolean configuration option",
+      "default": true,
+      "jsonSchemaOptions": {
+        "type": "boolean"
+      },
+      "uiSchemaOptions": {
+        "ui:widget": "select"
+      }
+    }
+  ]
+}
